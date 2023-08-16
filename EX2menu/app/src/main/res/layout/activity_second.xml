@@ -1,0 +1,22 @@
+<!-- activity_second.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Go Back to Main Activity" />
+
+    <ImageView
+        android:id="@+id/iw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b2"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/image2"/>
+
+</RelativeLayout>
